@@ -4,7 +4,7 @@ import argparse
 import time
 from tqdm import tqdm
 
-from A2HiPool_model import A2HiPool
+from REAHG import REAHG
 from dataloader import DataLoader, load_data
 from loss_and_metric import *
 torch.set_default_tensor_type(torch.DoubleTensor)
