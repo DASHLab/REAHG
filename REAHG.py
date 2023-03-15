@@ -8,10 +8,10 @@ from AHG import *
 from loss_and_metric import getCoef_formodel, sample_gaussian_2d_formodel
 
 
-class A2HiPool(nn.Module):
+class REAHG(nn.Module):
 
     def __init__(self, args, node_num):
-        super(A2HiPool, self).__init__()
+        super(REAHG, self).__init__()
 
         self.args = args
         self.use_cuda = args.use_cuda
