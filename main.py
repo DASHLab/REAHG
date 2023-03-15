@@ -77,7 +77,7 @@ def train(args):
 
     # model creation
     node_num = train_data.shape[1]
-    net = A2HiPool(args, node_num)
+    net = REAHG(args, node_num)
     if args.use_cuda:
         net = net.cuda()
 
